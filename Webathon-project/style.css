@@ -1,0 +1,150 @@
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color:linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  .python span{
+    display: inline-block;
+  }
+  .python{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+   
+  .sidebar a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  
+  .lang{
+    width: 30%;
+    height:  4%;
+  }
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+    #grad {
+    background-image: linear-gradient(red, yellow);
+  } 
+  html { 
+
+  
+    
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    background-size: cover;
+  } 
+  
+  
+.content h2
+{
+  font-variant: initial;
+  font-size: 40px;
+}
+.content p{
+  font-size: 20px;
+}
+.content h3 span
+{
+  color: yellowgreen;
+  font-size: 40px;
+}
+.content a:hover{
+  background-color: aqua;
+}
+img{
+  padding-top:60px;
+  width:30%;
+}
+button:hover
+{
+ background-color: brown;
+}
+
+.Python {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 40px;
+}
+
+
+.active, .Python:hover {
+  background-color:purple;
+}
+.code {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  color:black;
+}
+.C-LANGUAGE {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 40px;
+}
+.active, .C-LANGUAGE:hover {
+  background-color:yellowgreen;
+}
+.CPP-LANGUAGE {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 40px;
+}
+.active, .CPP-LANGUAGE:hover {
+  background-color:red;
+}
